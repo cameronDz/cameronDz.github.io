@@ -580,14 +580,48 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
  }
 }
 
+/* Added colors from https://gist.github.com/rex/61964b6d2060059c6a5c */
+.turquoise > span {
+  background-color: #1abc9c;
+}
+.green-sea > span {
+  background-color: #16a085;
+}
+.nephritis > span {
+  background-color: #27ae60;
+}
+.peter-river > span {
+  background-color: #3498db;
+}
+.belize-hole > span {
+  background-color: #2980b9;
+}
+.amethyst > span {
+  background-color: #9b59b6;
+}
+.wet-asphalt > span {
+  background-color: #34495e;
+}
+.pumpkin > span {
+  background-color: #d35400;
+}
+.alizarin > span {
+  background-color: #e74c3c;
+}
+.clouds > span {
+  background-color: #ecf0f1;
+}
+.silver > span {
+  background-color: #bdc3c7;
+}
+.concrete > span {
+  background-color: #95a5a6;
+}
 .emerald > span {
   background-color: #2ecc71;
-
 }
-
 .carrot > span {
   background-color: #e67e22;
-
 }
 .wisteria > span{
   background-color: #8e44ad;
@@ -608,6 +642,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-animation: none;
   background-image: none;
 }
+
 /* Footer */
 footer{
   text-align: center;
