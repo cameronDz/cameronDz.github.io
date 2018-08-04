@@ -1,5 +1,9 @@
 @charset "ISO-8859-1";
 
+.nav-bar-text {
+	font-size: 32px;
+}
+
 .contact-page {
 	padding-bottom: 10px;
 }
