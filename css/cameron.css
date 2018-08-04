@@ -1,7 +1,15 @@
 @charset "ISO-8859-1";
 
-.nav-bar-text {
+div.collapse.navbar-collapse>ul.nav.navbar-nav.navbar-right>li.navbar-li>a.navbar-text
+	{
+	color: #E74C3C;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a.navbar-brand.navbar-title {
 	font-size: 32px;
+	color: #E74C3C;
 }
 
 .contact-page {
