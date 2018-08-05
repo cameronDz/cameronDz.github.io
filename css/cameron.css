@@ -7,7 +7,9 @@ div.collapse.navbar-collapse>ul.nav.navbar-nav.navbar-right>li.navbar-li>a.navba
 	margin-bottom: 0px;
 }
 
-a.navbar-brand.navbar-title {
+a.navbar-brand.navbar-title,
+a.navbar-brand.navbar-title:hover,
+a.navbar-brand.navbar-title:focus {
 	font-size: 32px;
 	color: #E74C3C;
 }
