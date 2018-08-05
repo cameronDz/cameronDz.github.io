@@ -7,9 +7,8 @@ div.collapse.navbar-collapse>ul.nav.navbar-nav.navbar-right>li.navbar-li>a.navba
 	margin-bottom: 0px;
 }
 
-a.navbar-brand.navbar-title,
-a.navbar-brand.navbar-title:hover,
-a.navbar-brand.navbar-title:focus {
+a.navbar-brand.navbar-title, a.navbar-brand.navbar-title:hover, a.navbar-brand.navbar-title:focus
+	{
 	font-size: 32px;
 	color: #E74C3C;
 }
@@ -20,4 +19,18 @@ a.navbar-brand.navbar-title:focus {
 
 .icon-img {
 	padding-right: 10px;
+}
+
+.resume-title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.education-row {
+	padding-bottom: 10px;
+}
+
+.resume-info {
+	padding-top: 8px;
 }
