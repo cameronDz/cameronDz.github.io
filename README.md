@@ -7,7 +7,6 @@ Personal web site. Has links to other related sites; i.e. social media, deployed
 
 - [ ] Issue with resizing on span.meter class for CSS.
 - [ ] Add back Shift Scheduler application after made/deployed.
-- [x] Add back Augmented application after made/deployed.
 
 ## Change Log
 
