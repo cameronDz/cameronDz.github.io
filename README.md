@@ -6,9 +6,11 @@ Personal web site. Has links to other related sites; i.e. social media, deployed
 #### Task/Wish List for next commits into master branch 
 
 - [ ] Issue with resizing on span.meter class for CSS.
-- [ ] Add back Shift Scheduler application after made/deployed.
 
 ## Change Log
+
+###### 28 June 2019
+ - Update for job move and skill set changes.
 
 ###### 17 August 2018
  - Updated README file.

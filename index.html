@@ -3,22 +3,20 @@
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/cameron.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/normalize.min.css">
-<link rel="stylesheet" href="css/main.css">
-<script>
-	window.jQuery
-			|| document
-					.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
-</script>
-<script src="js/vendor/jquery.hashchange.min.js"></script>
-<script src="js/vendor/jquery.easytabs.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/bootstrap.js"></script>
-<title>Cameron Dziurgot - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/cameron.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script>
+    window.jQuery	|| document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')
+  </script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <title>Cam Dziurgot - Home</title>
 </head>
 
 <body>
@@ -27,84 +25,96 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <button aria-expanded="false"
+              class="navbar-toggle collapsed"
+              data-target="#bs-example-navbar-collapse-1"
+              data-toggle="collapse"
+              type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand navbar-title">Home</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li role="presentation" class="active navbar-li"><a class="navbar-text" href="#">Home</a><span
-                class="sr-only">(current)</span></li>
-              <li role="presentation" class="navbar-li"><a class="navbar-text" href="about.html">About</a></li>
-              <li role="presentation" class="navbar-li"><a class="navbar-text" href="contact.html">Contact</a></li>
+              <li class="active navbar-li" role="presentation" >
+                <a class="navbar-text" href="#">Home</a>
+                <span class="sr-only">(current)</span>
+              </li>
+              <li class="navbar-li" role="presentation"><a class="navbar-text" href="about.html">About</a></li>
+              <li class="navbar-li" role="presentation"><a class="navbar-text" href="contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
     <div class="jumbotron">
-      <h1>Cameron Dziurgot</h1>
-      <p class="lead">Software Engineer and DevOps enthusiast. Interests include; America, suits, and coffee.</p>
+      <h1 tabindex="0">Cam Dziurgot</h1>
+      <p class="lead" tabindex="0">Software Engineer and DevOps enthusiast. Interests include; America, suits, and coffee.</p>
     </div>
 
     <div class="row marketing">
       <div class="col-lg-6">
-        <h3>Experience/Resume</h3>
+        <h3 tabindex="0">Experience/Resume</h3>
+        <p tabindex="0">Education and work experience listed on the <a href="about.html">About page</a>.</p>
         <p>
-          Education and work experience listed on the <a href="about.html">About page</a>.
-        </p>
-        <p>
-          <a href="resume/cameron_dziurgot-resume.pdf" target="_blank"> <img src="images/resume-icon.png"
-            title="Download resume PDF." height="30"> &nbsp; Download Resume PDF
+          <a href="resume/cameron_dziurgot-resume.pdf" target="_blank">
+            <img src="images/resume-icon.png" title="Download resume PDF." height="30">
+            &nbsp; Download Resume PDF
           </a>
         </p>
       </div>
 
       <div class="col-lg-6">
-        <h3>GitHub Repositories</h3>
-        <p>Various projects in multiple languages and technologies located on GitHub.</p>
+        <h3 tabindex="0">GitHub Repositories</h3>
+        <p tabindex="0">Various projects in multiple languages and technologies located on GitHub.</p>
         <p>
-          <a href="https://github.com/cameronDz" target="_blank"> <img src="images/github-logo.png"
-            title="GitHub Profile Page." height="30"> &nbsp; Visit GitHub profile.
+          <a href="https://github.com/cameronDz" target="_blank">
+            <img src="images/github-logo.png" title="GitHub Profile Page." height="30">
+            &nbsp; Visit GitHub profile.
           </a>
         </p>
       </div>
-      
+
       <div class="col-lg-6">
-        <h3>Augmented Application Front End</h3>
-        <p>Augmented front end is a React single page application used to track fitness and nutrition. The end goal for augmented 
+        <h3 tabindex="0">Augmented Application Front End</h3>
+        <p tabindex="0">
+          Augmented front end is a React single page application used to track fitness and nutrition. The end goal for augmented
           is to have users able to record exercises routines, sleep schedules, meals, etc., connect wearable and smart devices to
           the application, and access other fitness/nutrition/diet tracking applications, to have one place to collect all self
           tracking data. Currently, the application is only used to track cardio workouts. Application uses Bulma.css framework,
-          is deployed using NPM to an S3 bucket, and was GoDaddy forward masking that web page at http://augmented.fit.</p>
+          is deployed using NPM to an S3 bucket, and was GoDaddy forward masking that web page at http://augmented.fit.
+        </p>
         <p>
-          <a href="http://augmented.fit" target="_blank"><img
-            class="icon-img" src="images/react-logo.png" title="Augmented Website."
-            height="50">Augmented Website</a>
+          <a href="http://augmented.fit" target="_blank">
+            <img class="icon-img" height="50" src="images/react-logo.png" title="Augmented Website.">
+            Augmented Website
+          </a>
         </p>
         <p><a href="https://github.com/cameronDz/augmented-front-end" target="_blank">Augmented Front End Repository</a></p>
       </div>
-      
+
       <div class="col-lg-6">
-        <h3>Augmented Application ASP.NET Back End</h3>
-        <p>Augmented back end is a code first C# database API deployed on the Azure cloud. Currently the data base supports basic 
-          CRUD activities for the front end application, though the front end only utilizes GET and POST.</p>
+        <h3 tabindex="0">Augmented Application ASP.NET Back End</h3>
+        <p tabindex="0">
+          Augmented back end is a code first C# database API deployed on the Azure cloud. Currently the data base supports basic
+          CRUD activities for the front end application, though the front end only utilizes GET and POST.
+        </p>
         <p>
-          <a href="https://augmentedaspnetbackend.azurewebsites.net/" target="_blank"><img
-            class="icon-img" src="images/azure-logo.png" title="Augmented ASP.NET Backend Documentation."
-            height="50">Back End Documentation</a>
+          <a href="https://augmentedaspnetbackend.azurewebsites.net/" target="_blank">
+            <img class="icon-img" height="50" src="images/azure-logo.png" title="Augmented ASP.NET Backend Documentation.">
+            Back End Documentation
+          </a>
         </p>
         <p><a href="https://github.com/cameronDz/augmented-aspnet-backend" target="_blank">Augmented Back End Repository</a></p>
       </div>
     </div>
 
-    <footer class="footer">
-      <p>&copy; 2018 Cameron M. Dziurgot</p>
+    <footer class="footer" tabindex="0">
+      <p>&copy; 2019 Cameron M. Dziurgot</p>
     </footer>
-
   </div>
 </body>
 
