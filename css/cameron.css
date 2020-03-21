@@ -1,36 +1,41 @@
 @charset "ISO-8859-1";
 
-div.collapse.navbar-collapse>ul.nav.navbar-nav.navbar-right>li.navbar-li>a.navbar-text
-	{
+div.collapse.navbar-collapse > ul.nav.navbar-nav.navbar-right > li.navbar-li > a.navbar-text
+{
 	color: #E74C3C;
-	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 a.navbar-brand.navbar-title, a.navbar-brand.navbar-title:hover, a.navbar-brand.navbar-title:focus
-	{
-	font-size: 32px;
+{
 	color: #E74C3C;
+	font-size: 32px;
 }
 
-.contact-page {
+.contact-page
+{
 	padding-bottom: 10px;
 }
 
-.icon-img {
+.icon-img
+{
 	padding-right: 10px;
 }
 
-.resume-title {
-	padding-top: 5px;
-	padding-bottom: 5px;
+.resume-title
+{
 	font-size: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
-.education-row {
+.education-row
+{
 	padding-bottom: 10px;
 }
 
-.resume-info {
+.resume-info
+{
 	padding-top: 8px;
 }
