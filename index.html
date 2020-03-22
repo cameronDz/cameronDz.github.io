@@ -129,13 +129,13 @@
         </p>
         <h4 tabindex="0" class="application-subsection-title">Technologies</h4>
         <p tabindex="0" class="application-subsection">
-          [TODO] - UI overview; webpack, npm, react, tests
+          The frontend is a ReactJS SPA that uses Material UI for styling, ES Lint with Mocha for code quality and unit testing, and Webpack for bundling the application. It has a manual deploy to a statically hosted AWS S3 bucket using a combination of an NPM script in the project and AWS CLI.
         </p>
         <p tabindex="0" class="application-subsection">
-          [TODO] - API overview; java, tests, deploy heroku
+          The backend of the application is made using a Java Spring Boot framework built with Apache Maven. The API is used to perform basic CRUD functionality with JSON objects in an S3 bucket (seperate from the statically hosted bucket), that requires authentication for any functionality besides retrieval.
         </p>
         <p tabindex="0" class="application-subsection">
-          [TODO] - Storage overview; S3 bucket
+          The API is deployed to a Heroku cloud server in a fully automated pipeline that runs anytime the a commit is made to the master branch of the applications GitHub repository.
         </p>
         <p tabindex="0" class="application-subsection application-technology-list">
           List of related pages associate with Log Notes application:
