@@ -9,5 +9,4 @@ LICENSE text eol=lf
 
 # Denote all files that are truly binary and should not be modified.
 *.ico binary
-*.jpeg binary
 *.png binary
