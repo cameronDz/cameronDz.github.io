@@ -63,3 +63,8 @@ a.navbar-brand.navbar-title, a.navbar-brand.navbar-title:hover, a.navbar-brand.n
 {
 	margin-bottom: 24px;
 }
+
+div.hidden-application.application-section
+{
+	display: none;
+}
