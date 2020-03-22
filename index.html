@@ -55,68 +55,77 @@
     </div>
     <div class="jumbotron">
       <h1 tabindex="0">Cam Dziurgot</h1>
-      <p class="lead" tabindex="0">Software Engineer and DevOps enthusiast. Interests include; America, suits, and coffee.</p>
+      <p class="lead" tabindex="0">Software Engineer and DevOps enthusiast. Interests include; America, suits, coffee, and dogs.</p>
     </div>
 
     <div class="row marketing">
-      <div class="col-lg-6">
-        <h3 tabindex="0">Experience / Resume</h3>
-        <p tabindex="0">Education and work experience listed on the <a href="about.html">About page</a>.</p>
-        <p>
+      <div class="col-md-12 col-lg-2"></div>
+      <div class="col-md-12 col-lg-10">
+        <p tabindex="0">
           <a href="resume/cameron_dziurgot-resume.pdf" target="_blank">
-            <img src="images/resume-icon.png" title="Download resume PDF." height="30">
-            &nbsp; Download Resume PDF
+            <img class="icon index-bullet-img" src="images/resume-icon.png" title="Download resume PDF.">
+          </a>
+          Work experience and Education listed on the <a href="about.html">About page</a>.
           </a>
         </p>
-      </div>
-
-      <div class="col-lg-6">
-        <h3 tabindex="0">GitHub Repositories</h3>
-        <p tabindex="0">Various projects in multiple languages and technologies located on GitHub.</p>
-        <p>
+        
+        <p tabindex="0">
           <a href="https://github.com/cameronDz" target="_blank">
-            <img src="images/github-logo.png" title="GitHub Profile Page." height="30">
-            &nbsp; Visit GitHub profile.
+            <img class="icon index-bullet-img" src="images/github-icon.png" title="Visit GitHub page.">
           </a>
+          Various projects in multiple languages and technologies located on GitHub.
         </p>
       </div>
 
-      <div class="col-lg-6">
-        <h3 tabindex="0">Augmented Application Front End</h3>
-        <p tabindex="0">
-          Augmented front end is a React single page application used to track fitness and nutrition. The end goal for augmented
-          is to have users able to record exercises routines, sleep schedules, meals, etc., connect wearable and smart devices to
-          the application, and access other fitness/nutrition/diet tracking applications, to have one place to collect all self
-          tracking data. Currently, the application is only used to track cardio workouts. Application uses Bulma.css framework,
-          is deployed using NPM to an S3 bucket, and was GoDaddy forward masking that web page at http://augmented.fit.
-        </p>
-        <p>
-          <a href="http://augmented.fit" target="_blank">
-            <img class="icon-img" height="50" src="images/react-logo.png" title="Augmented Website.">
-            Augmented Website
-          </a>
-        </p>
-        <p><a href="https://github.com/cameronDz/augmented-front-end" target="_blank">Augmented Front End Repository</a></p>
+      <div class="col-log-12">
+        <h2 tabindex="0">Projects and Applications</h2>
       </div>
 
-      <div class="col-lg-6">
-        <h3 tabindex="0">Augmented Application ASP.NET Back End</h3>
+      <div class="col-lg-12">
+        <h2 tabindex="0" class="application-name">Augmented</h2>
         <p tabindex="0">
-          Augmented back end is a code first C# database API deployed on the Azure cloud. Currently the data base supports basic
-          CRUD activities for the front end application, though the front end only utilizes GET and POST.
+          Augmented is a personal fitness application used to track fitness and nutrition. The end goal for augmented is to have user base (other than myself) use the application to record exercises routines, sleep schedules, meals, etc., connect wearable and smart devices to the application, and access other fitness and diet tracking applications, to have one place to collect all self tracking data. Currently, the application is only used to track cardio workouts. Visit the deployed application here; <a href="http://www.augmented.fit" target="_blank">http://www.augmented.fit</a>.
         </p>
-        <p>
+        <h4 tabindex="0" class="application-subsection">Technologies</h4>
+        <p tabindex="0">
+          The front end of the application is a SPA using ReactJS, with a combination of Bulma and Material UI styling frameworks. Keeps code quality standards using ES Lint, compiled using Webpack, and tested using Mocha framework. The UI is deployed to an AWS S3 bucket, which statically hosts the applcation. GoDaddy is used to forward mask any user that navigates to the S3 bucket address.
+        </p>
+        <p tabindex="0">
+          The back end of the applcation is written in .NET framework, using C# to write the API to perform basic CRUD functions against a database generated using Entity Framework. The API and the database are deployed manually on Azure using Visual Studio.
+        </p>
+
+        <p tabindex="0">
+          List of related pages associate with Augmented application:
+        </p>
+        <p class="logo" tabindex="0">
+          <img class="index-bullet-img" src="images/react-logo.png">
+          <a href="https://github.com/cameronDz/augmented-front-end" target="_blank">
+            Repository for frontend React UI project on GitHub
+          </a>
+        </p>
+        <p class="logo" tabindex="0">
+          <img class="index-bullet-img" src="images/aws-s3-logo.png">
+          <a href="http://augmented-frontend.s3-website-us-east-1.amazonaws.com/" target="_blank">
+            S3 bucket used to statically host webpage
+          </a>
+        </p>
+        <p class="logo" tabindex="0">
+          <img class="index-bullet-img" src="images/dot-net-logo.png">
+          <a href="https://github.com/cameronDz/augmented-aspnet-backend" target="_blank">
+            Repository for backend .NET project on GitHub
+          </a>
+        </p>
+        <p class="logo" tabindex="0">
+          <img class="index-bullet-img" src="images/azure-logo.png">         
           <a href="https://augmentedaspnetbackend.azurewebsites.net/" target="_blank">
-            <img class="icon-img" height="50" src="images/azure-logo.png" title="Augmented ASP.NET Backend Documentation.">
-            Back End Documentation
+            Backend documentation deployed on Azure with API's and Database server
           </a>
         </p>
-        <p><a href="https://github.com/cameronDz/augmented-aspnet-backend" target="_blank">Augmented Back End Repository</a></p>
       </div>
     </div>
 
     <footer class="footer" tabindex="0">
-      <p>&copy; 2020 Cameron M. Dziurgot</p>
+      <p>&copy;&nbsp;2020 Cameron M. Dziurgot</p>
     </footer>
   </div>
 </body>

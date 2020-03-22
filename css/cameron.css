@@ -7,6 +7,25 @@ div.collapse.navbar-collapse > ul.nav.navbar-nav.navbar-right > li.navbar-li > a
 	margin-top: 0px;
 }
 
+img.index-bullet-img
+{
+	margin-bottom: 6px;
+	margin-right: 6px;
+	height: 30px;
+}
+
+p.logo
+{
+	margin-left: 30px;
+	margin-bottom: 0px;
+}
+
+
+h2.application-name
+{
+	font-weight: 900;
+}
+
 a.navbar-brand.navbar-title, a.navbar-brand.navbar-title:hover, a.navbar-brand.navbar-title:focus
 {
 	color: #E74C3C;
