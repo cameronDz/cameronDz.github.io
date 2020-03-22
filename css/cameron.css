@@ -68,3 +68,16 @@ div.hidden-application.application-section
 {
 	display: none;
 }
+
+footer.footer
+{
+	box-shadow: none;
+}
+
+footer.footer.contact-footer
+{
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
