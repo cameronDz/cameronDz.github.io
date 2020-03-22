@@ -60,7 +60,7 @@
 
     <div class="row marketing">
       <div class="col-md-12 col-lg-2"></div>
-      <div class="col-md-12 col-lg-10">
+      <div class="col-md-12 col-lg-10 information-bullets">
         <p tabindex="0">
           <a href="https://drive.google.com/open?id=1h3BuShxBGLIYrdUISESnVVn2GIXA_YWs" target="_blank">
             <img class="icon bullet-img" src="images/resume-icon.png" title="Resume PDF">
@@ -75,26 +75,26 @@
           </a>
           Various projects in multiple languages and technologies located on GitHub.
         </p>
-      </div>
+      </div> <!-- end informational bullets section -->
 
-      <div class="col-log-12">
+      <div class="col-log-12 index-section">
         <h2 tabindex="0">Projects and Applications</h2>
       </div>
 
-      <div class="col-lg-12">
+      <div class="col-lg-12 application-section">
         <h2 tabindex="0" class="application-name">Augmented</h2>
-        <p tabindex="0">
+        <p tabindex="0" class="application-overview">
           Augmented is a personal fitness application used to track fitness and nutrition. The end goal for augmented is to have user base (other than myself) use the application to record exercises routines, sleep schedules, meals, etc., connect wearable and smart devices to the application, and access other fitness and diet tracking applications, to have one place to collect all self tracking data. Currently, the application is only used to track cardio workouts. Visit the deployed application here; <a href="http://www.augmented.fit" target="_blank">http://www.augmented.fit</a>.
         </p>
-        <h4 tabindex="0" class="application-subsection">Technologies</h4>
-        <p tabindex="0">
+        <h4 tabindex="0" class="application-subsection-title">Technologies</h4>
+        <p tabindex="0" class="application-subsection">
           The front end of the application is a SPA using ReactJS, with a combination of Bulma and Material UI styling frameworks. Keeps code quality standards using ES Lint, compiled using Webpack, and tested using Mocha framework. The UI is deployed to an AWS S3 bucket, which statically hosts the applcation. GoDaddy is used to forward mask any user that navigates to the S3 bucket address.
         </p>
-        <p tabindex="0">
+        <p tabindex="0" class="application-subsection">
           The back end of the applcation is written in .NET framework, using C# to write the API to perform basic CRUD functions against a database generated using Entity Framework. The API and the database are deployed manually on Azure using Visual Studio.
         </p>
 
-        <p tabindex="0">
+        <p tabindex="0" class="application-subsection application-technology-list">
           List of related pages associate with Augmented application:
         </p>
         <p class="logo" tabindex="0">
@@ -121,7 +121,50 @@
             Backend documentation deployed on Azure with API's and Database server
           </a>
         </p>
-      </div>
+      </div> <!-- end section on augmented application -->
+
+      <div class="col-lg-12 application-section">
+        <h2 tabindex="0" class="application-name">Log Notes</h2>
+        <p tabindex="0" class="application-overview">
+          [TODO] - General overview of purpose of Log Notes application.
+          Visit the deployed application here; <a href="http://log-notes-app.s3-website-us-east-1.amazonaws.com/" target="_blank">http://log-notes-app.s3-website-us-east-1.amazonaws.com/</a>.
+        </p>
+        <h4 tabindex="0" class="application-subsection-title">Technologies</h4>
+        <p tabindex="0" class="application-subsection">
+          [TODO] - UI overview; webpack, npm, react, tests
+        </p>
+        <p tabindex="0" class="application-subsection">
+          [TODO] - API overview; java, tests, deploy heroku
+        </p>
+        <p tabindex="0" class="application-subsection">
+          [TODO] - Storage overview; S3 bucket
+        </p>
+        <p tabindex="0" class="application-subsection application-technology-list">
+          <p class="logo" tabindex="0">
+            <img class="bullet-img" src="images/react-logo.png">
+            <a href="#" target="_blank">
+              [TODO] - UI repo
+            </a>
+          </p>
+          <p class="logo" tabindex="0">
+            <img class="bullet-img" src="images/spring-boot-logo.png">
+            <a href="#" target="_blank">
+              [TODO] - Backend repo
+            </a>
+          </p>
+          <p class="logo" tabindex="0">
+            <img class="bullet-img" src="images/heroku-logo.png">
+            <a href="#" target="_blank">
+              [TODO] - Heroku deploy
+            </a>
+          </p>
+          <p class="logo" tabindex="0">
+            <img class="bullet-img" src="images/aws-s3-logo.png">
+            <a href="#" target="_blank">
+              [TODO] - S3 storage deploy
+            </a>
+          </p>
+      </div> <!-- end section on augmented application -->
     </div>
 
     <footer class="footer" tabindex="0">

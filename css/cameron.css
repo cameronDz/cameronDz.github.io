@@ -58,3 +58,8 @@ a.navbar-brand.navbar-title, a.navbar-brand.navbar-title:hover, a.navbar-brand.n
 {
 	padding-top: 8px;
 }
+
+.application-section
+{
+	margin-bottom: 24px;
+}
